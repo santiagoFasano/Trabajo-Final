@@ -1,0 +1,227 @@
+
+html, body {
+    height: 100%;
+
+}
+
+footer {
+    text-align: center;
+}
+footer img {
+    height: 50px;
+}
+main {
+    flex: 1;
+}
+body {
+    background: url('img/fondo.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+}
+
+header, footer {
+    padding: 20px;
+}
+
+header img.logo {
+    height: 150px;
+    border-radius: 100%;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #020202;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+form input, form button {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.btnborrar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.btnmodificar {
+    background-color: rgb(0, 195, 255);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.btnMostrarMoto, .btnvolver {
+    background-color: rgb(0, 89, 255);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.btnCargarmto {
+    background-color: rgb(0, 255, 55);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.btncancelarcambios {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.btnguardarcambios {
+    background-color: rgb(9, 255, 0);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.logomoto {
+
+    height: auto; /* Mantén la proporción de la imagen */
+    width: 300px;
+}
+.contenedor {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 80vh; 
+    box-sizing: border-box; 
+}
+h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+.contenedor1 {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
+.contenedor3 {
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh;
+}
+.buscardormoto{
+    width: calc(20% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;   
+}
+a {
+    text-decoration: none;
+}
+/*MOBILE*/
+@media (max-width: 600px) {
+    header img.logo {
+        height: 85px; 
+    }
+
+    form {
+        max-width: 100%; 
+        margin: 10px; 
+        padding: 10px; 
+    }
+
+    form input, form button {
+        width: calc(100% - 10px); 
+        padding: 5px; 
+    }
+
+    table {
+        width: 100%; 
+        font-size: 12px; 
+        overflow-x: auto; 
+        display: block; 
+    }
+
+    th, td {
+        padding: 1px; 
+    }
+
+    footer img {
+        height: 40px; 
+    }
+
+    .logomoto {
+        width: 200px; 
+    }
+
+    header, footer {
+        padding: 5px; 
+    }
+
+    .contenedor, .contenedor1, .contenedor3 {
+        height: auto; 
+    }
+
+    h1, h2 {
+        font-size: 15px; 
+    }
+    .btnCargarmto {
+        background-color: rgb(0, 255, 55);
+        color: white;
+        border: none;
+        padding: 5px 2px;
+        border-radius: 5px;
+    }
+    .btnMostrarMoto, .btnvolver {
+        background-color: rgb(0, 89, 255);
+        color: white;
+        border: none;
+        padding: 5px 2px;
+        border-radius: 5px;
+    }
+    .btnborrar {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 5px 2px;
+        border-radius: 5px;
+    }
+    .btnmodificar {
+        background-color: rgb(0, 195, 255);
+        color: white;
+        border: none;
+        padding: 5px 2px;
+        border-radius: 5px;
+    }
+    .buscardormoto{
+        width: calc(50% - 10px); 
+        padding: 5px; 
+        border: 1px solid #000000;
+        border-radius: 5px; 
+    }
+}
+
